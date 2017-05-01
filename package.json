@@ -1,0 +1,22 @@
+{
+    "name": "cammisuli-color-theme",
+    "displayName": "Cammisuli Color Theme",
+    "description": "Dark color theme",
+    "version": "0.0.1",
+    "publisher": "cammisuli",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cammisuli Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cammisuli Theme.tmTheme"
+            }
+        ]
+    }
+}
