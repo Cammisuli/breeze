@@ -1,0 +1,4 @@
+.monaco-editor.enable-ligatures {
+    -webkit-font-feature-settings: 'liga' on, 'calt' on, 'salt' on;
+    font-feature-settings: 'liga' on, 'calt' on, 'salt' on;
+}
