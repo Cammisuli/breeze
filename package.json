@@ -7,7 +7,12 @@
     "engines": {
         "vscode": "^1.11.0"
     },
-    "categories": ["Themes"],
+    "scripts": {
+        "bundle": "vsce package"
+    },
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
@@ -16,5 +21,8 @@
                 "path": "./themes/Cammisuli Theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "1.36.1"
     }
 }
