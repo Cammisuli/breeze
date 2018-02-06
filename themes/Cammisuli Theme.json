@@ -44,10 +44,13 @@
                 "entity.name.tag",
                 "entity.other.attribute-name",
                 "meta.tag",
-                "declaration.tag"
+                "declaration.tag",
+                "punctuation.definition.template-expression",
+                "meta.template.expression"
             ],
             "settings": {
-                "foreground": "#E2EDFF"
+                "foreground": "#E2EDFF",
+                "fontStyle": "none"
             }
         },
         {
@@ -88,7 +91,7 @@
                 "markup.heading"
             ],
             "settings": {
-                "fontStyle": "",
+                "fontStyle": "italic",
                 "foreground": "#FFCB5B"
             }
         },
@@ -212,10 +215,11 @@
             }
         },
         {
-            "name": "Decorator",
+            "name": "Decorator, CSS/SCSS variable",
             "scope": [
                 "meta.decorator entity.name.function",
-                "meta.decorator\npunctuation.decorator"
+                "meta.decorator punctuation.decorator",
+                "source.css.scss variable"
             ],
             "settings": {
                 "foreground": "#E5BA8F"
@@ -229,8 +233,8 @@
             }
         },
         {
-            "name": "this keyword",
-            "scope": "variable.language.this",
+            "name": "Global, this",
+            "scope": ["variable.language.this", "support.variable.dom" ],
             "settings": {
                 "foreground": "#40A893"
             }
@@ -238,13 +242,6 @@
         {
             "name": "Method Declaration",
             "scope": "meta.definition.method entity.name.function",
-            "settings": {
-                "foreground": "#E2EDFF"
-            }
-        },
-        {
-            "name": "CSS/SCSS variable",
-            "scope": "source.css.scss\nvariable",
             "settings": {
                 "foreground": "#E2EDFF"
             }
@@ -260,7 +257,8 @@
             "name": "HTML Attribute",
             "scope": "entity.other.attribute-name.html",
             "settings": {
-                "foreground": "#52A0FD"
+                "foreground": "#52A0FD",
+                "fontStyle": "italic"
             }
         }
     ]
