@@ -23,12 +23,7 @@
         },
         {
             "name": "Foreground, Operator",
-            "scope": [
-                "keyword.operator.class",
-                "keyword.operator",
-                "constant.other",
-                "source.php.embedded.line"
-            ],
+            "scope": ["keyword.operator.class", "keyword.operator", "constant.other", "source.php.embedded.line"],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#FFFFFF"
@@ -54,8 +49,7 @@
             }
         },
         {
-            "name":
-                "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
             "scope": [
                 "constant.numeric",
                 "constant.language",
@@ -71,12 +65,7 @@
         },
         {
             "name": "Class, Support",
-            "scope": [
-                "entity.name.class",
-                "entity.name.type",
-                "support.type",
-                "support.class"
-            ],
+            "scope": ["entity.name.class", "entity.name.type", "support.type", "support.class"],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#FFEEAD"
@@ -84,12 +73,7 @@
         },
         {
             "name": "String, Symbols, Inherited Class, Markup Heading",
-            "scope": [
-                "string",
-                "constant.other.symbol",
-                "entity.other.inherited-class",
-                "markup.heading"
-            ],
+            "scope": ["string", "constant.other.symbol", "entity.other.inherited-class", "markup.heading"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FFCB5B"
@@ -118,12 +102,7 @@
         },
         {
             "name": "Keyword, Storage",
-            "scope": [
-                "keyword",
-                "storage",
-                "storage.type",
-                "entity.name.tag.css"
-            ],
+            "scope": ["keyword", "storage", "storage.type", "entity.name.tag.css"],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#58A8FD"
@@ -216,11 +195,7 @@
         },
         {
             "name": "Decorator, CSS/SCSS variable",
-            "scope": [
-                "meta.decorator entity.name.function",
-                "meta.decorator punctuation.decorator",
-                "source.css.scss variable"
-            ],
+            "scope": ["meta.decorator entity.name.function", "meta.decorator punctuation.decorator"],
             "settings": {
                 "foreground": "#E5BA8F"
             }
@@ -234,7 +209,7 @@
         },
         {
             "name": "Global, this",
-            "scope": ["variable.language.this", "support.variable.dom" ],
+            "scope": ["variable.language.this", "support.variable.dom",  "source.css.scss variable"],
             "settings": {
                 "foreground": "#40A893"
             }
