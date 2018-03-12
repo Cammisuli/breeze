@@ -96,6 +96,18 @@
             }
         },
         {
+            "name": "tagged template",
+            "scope": [
+                "string.js.taggedTemplate",
+                "string.js.taggedTemplate punctuation.definition.string.template.end.js",
+                "string.js.taggedTemplate string.unquoted.html"
+            ],
+            "settings": {
+                "fontStyle": "none",
+                "foreground": "#FFF"
+            }
+        },
+        {
             "name": "Operator, Misc",
             "scope": ["keyword.operator", "constant.other.color"],
             "settings": {
@@ -234,7 +246,7 @@
         },
         {
             "name": "Global, this",
-            "scope": ["variable.language.this", "support.variable.dom" ],
+            "scope": ["variable.language.this", "support.variable.dom"],
             "settings": {
                 "foreground": "#40A893"
             }
