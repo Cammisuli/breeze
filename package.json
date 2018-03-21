@@ -10,9 +10,7 @@
     "scripts": {
         "bundle": "vsce package"
     },
-    "categories": [
-        "Themes"
-    ],
+    "categories": ["Themes"],
     "contributes": {
         "themes": [
             {
