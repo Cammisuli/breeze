@@ -8,7 +8,8 @@
         "vscode": "^1.11.0"
     },
     "scripts": {
-        "bundle": "vsce package"
+        "bundle": "vsce package",
+        "build": "ts-node index.ts"
     },
     "categories": ["Themes"],
     "contributes": {
@@ -17,10 +18,18 @@
                 "label": "Cammisuli Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Cammisuli Theme.json"
+            },
+            {
+                "label": "generated",
+                "uiTheme": "vs-dark",
+                "path": "./themes/generated.json"
             }
         ]
     },
     "devDependencies": {
-        "vsce": "1.36.1"
+        "ts-node": "^6.0.3",
+        "typescript": "^2.8.3",
+        "vsce": "1.36.1",
+        "vscode-theme-generator": "0.0.16"
     }
 }

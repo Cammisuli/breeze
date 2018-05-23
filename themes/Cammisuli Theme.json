@@ -247,6 +247,41 @@
                 "foreground": "#52A0FD",
                 "fontStyle": "italic"
             }
+        },
+        {
+            "name": "italics",
+            "scope": [
+                "comment",
+                "variable.other.object.property",
+                "keyword.operator",
+                "keyword.operator.logical",
+                "keyword",
+                "entity.name.function",
+                "string.quoted",
+                "support.function",
+                "punctuation.accessor",
+                "source.js",
+                "meta.block.js",
+                "meta.var.expr",
+                "entity.other.attribute-name",
+                "meta.class meta.method.declaration meta.var.expr storage.type.js",
+                "keyword.operator.relational",
+                "keyword.operator.assignment",
+                "meta.delimiter.period",
+                "meta.selector",
+                "entity.name.tag.doctype",
+                "meta.tag.sgml.doctype",
+                "variable.other.property",
+                "variable.other.object.property",
+                "italic",
+                "quote",
+                "source.elixir .punctuation.binary.elixir",
+                "meta.tag.sgml.doctype.html",
+                "markup.italic.markdown"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
         }
     ]
 }
