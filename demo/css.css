@@ -2,7 +2,7 @@
 
 .someClass {
   font-family: serif;
-  color: --var(test);
+  color: var(--test);
 }
 
 #someID {

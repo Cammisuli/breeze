@@ -13,13 +13,16 @@ export class SearchComponent implements OnInit, OnDestroy {
   searchResults: Array<Person>
   sub: Subscription
 
+  @Output()
+  public onSelection: EventEmitter<ComboBoxNodeControl> = new EventEmitter<ComboBoxNodeControl>();
+
   constructor(
     private searchService: SearchService,
     private route: ActivatedRoute
   ) {}
 
   ngOnInit() {
-    let test = 1;
+    let test: number = 1;
     this.sub = this.route.params.subscribe(params => {1
       if (params['term']) {
         this.query = decodeURIComponent(params['term'])

@@ -44,6 +44,17 @@
             }
         },
         {
+            "name": "annotation parameters",
+            "scope": [
+                "meta meta.type.annotation meta.type.parameters",
+                "meta new.expr meta.type.parameters entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#FFF",
+                "fontStyle": "none"
+            }
+        },
+        {
             "name": "String",
             "scope": ["string"],
             "settings": {
@@ -199,9 +210,13 @@
         },
         {
             "name": "Decorator",
-            "scope": ["meta.decorator entity.name.function", "meta.decorator punctuation.decorator"],
+            "scope": [
+                "meta.decorator entity.name.function",
+                "meta.decorator punctuation.decorator",
+                "meta.decorator meta.brace.round"
+            ],
             "settings": {
-                "foreground": "#9289FE"
+                "foreground": "#E5BA8F"
             }
         },
         {
@@ -209,6 +224,20 @@
             "scope": ["entity.name.type.class", "entity.name.type.interface"],
             "settings": {
                 "foreground": "#E2EDFF"
+            }
+        },
+        {
+            "name": "new keyword",
+            "scope": ["keyword.operator.new.ts"],
+            "settings": {
+                "foreground": "#58A8FD"
+            }
+        },
+        {
+            "name": "new class",
+            "scope": ["new.expr entity.name.type"],
+            "settings": {
+                "foreground": {}
             }
         },
         {
@@ -241,10 +270,14 @@
             }
         },
         {
-            "name": "CSS Italics",
-            "scope": ["source.css.scss meta.property-value.scss", "source.css meta.property-value.css"],
+            "name": "CSS property value",
+            "scope": [
+                "source.css.scss meta.property-value.scss",
+                "source.css meta.property-value.css",
+                "source.css keyword.other.unit"
+            ],
             "settings": {
-                "fontStyle": "italic"
+                "foreground": "#ffeead"
             }
         },
         {
@@ -270,7 +303,10 @@
                 "source.elixir .punctuation.binary.elixir",
                 "meta.tag.sgml.doctype.html",
                 "markup.italic.markdown",
-                "variable.language.this"
+                "variable.language.this",
+                "new.expr entity.name.type",
+                "source.css.scss meta.property-value.scss",
+                "source.css meta.property-value.css"
             ],
             "settings": {
                 "fontStyle": "italic"
