@@ -211,9 +211,7 @@
         {
             "name": "Decorator",
             "scope": [
-                "meta.decorator entity.name.function",
-                "meta.decorator punctuation.decorator",
-                "meta.decorator meta.brace.round"
+                "meta.decorator entity.name.function"
             ],
             "settings": {
                 "foreground": "#E5BA8F"

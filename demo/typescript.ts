@@ -18,7 +18,8 @@ export class SearchComponent implements OnInit, OnDestroy {
 
   constructor(
     private searchService: SearchService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    @Inject(forwardRef(() => ComboBoxControl) private _comboBox: ComboBoxControl)
   ) {}
 
   ngOnInit() {

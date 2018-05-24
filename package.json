@@ -2,7 +2,7 @@
     "name": "cammisuli-color-theme",
     "displayName": "Cammisuli Color Theme",
     "description": "Dark color theme",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "cammisuli",
     "engines": {
         "vscode": "^1.11.0"
