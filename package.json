@@ -2,34 +2,27 @@
     "name": "cammisuli-color-theme",
     "displayName": "Cammisuli Color Theme",
     "description": "Dark color theme",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "publisher": "cammisuli",
     "engines": {
         "vscode": "^1.11.0"
     },
     "scripts": {
-        "bundle": "vsce package",
-        "build": "ts-node index.ts"
+        "bundle": "vsce package"
     },
-    "categories": ["Themes"],
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
                 "label": "Cammisuli Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Cammisuli Theme.json"
-            },
-            {
-                "label": "generated",
-                "uiTheme": "vs-dark",
-                "path": "./themes/generated.json"
             }
         ]
     },
     "devDependencies": {
-        "ts-node": "^6.0.3",
-        "typescript": "^2.8.3",
-        "vsce": "1.36.1",
-        "vscode-theme-generator": "0.0.16"
+        "vsce": "1.36.1"
     }
 }

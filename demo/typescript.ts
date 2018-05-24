@@ -19,15 +19,16 @@ export class SearchComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
-    this.sub = this.route.params.subscribe(params => {
+    let test = 1;
+    this.sub = this.route.params.subscribe(params => {1
       if (params['term']) {
         this.query = decodeURIComponent(params['term'])
-        this.search()
+        this.search(1, null)
       }
     })
   }
 
-  search(): void {
+  search(param1: number, param2: Test): void {
     this.searchService.search(this.query).subscribe(
       (data: any) => {
         this.searchResults = data
@@ -36,9 +37,20 @@ export class SearchComponent implements OnInit, OnDestroy {
     )
   }
 
-  ngOnDestroy() {
+  public ngOnDestroy() {
     if (this.sub) {
       this.sub.unsubscribe()
     }
   }
+}
+
+
+const html = String.raw;
+
+const doSomething = () => html`
+  <div on-click="${(e) => console.log(e)}"></div>
+`
+
+interface Test {
+  param: string;
 }

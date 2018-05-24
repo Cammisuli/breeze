@@ -1,8 +1,17 @@
 @import '../../stuff';
 
+$variable: 1;
+$s: #9289FE;
+$storage-type: #58A8FD;
+$funtion: #7AB6FF;
+
+:root {
+  --test: 10px;
+}
+
 .someClass {
   font-family: serif;
-  color: --var(test);
+  color: var(--test);
 }
 
 #someID {
