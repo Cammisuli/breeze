@@ -3,12 +3,16 @@
     "displayName": "Cammisuli Color Theme",
     "description": "Dark color theme",
     "version": "0.1.2",
+    "repository": {
+        "url": "https://github.com/Cammisuli/vscode-custom-theme"
+    },
     "publisher": "cammisuli",
     "engines": {
         "vscode": "^1.11.0"
     },
     "scripts": {
-        "bundle": "vsce package"
+        "bundle": "vsce package",
+        "build": "yarn bundle"
     },
     "categories": [
         "Themes"
