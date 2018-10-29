@@ -27,6 +27,6 @@
         ]
     },
     "devDependencies": {
-        "vsce": "1.36.1"
+        "vsce": "1.52.0"
     }
 }
