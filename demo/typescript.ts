@@ -22,9 +22,11 @@ export class SearchComponent implements OnInit, OnDestroy {
     @Inject(forwardRef(() => ComboBoxControl) private _comboBox: ComboBoxControl)
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     let test: number = 1;
-    this.sub = this.route.params.subscribe(params => {1
+    console.log(test);
+    // this does something
+    this.sub = this.route.params.subscribe(params => {
       if (params['term']) {
         this.query = decodeURIComponent(params['term'])
         this.search(1, null)
@@ -32,10 +34,16 @@ export class SearchComponent implements OnInit, OnDestroy {
     })
   }
 
+  /**
+   * Comment
+   * @param param1
+   * @param param2
+   */
   search(param1: number, param2: Test): void {
     this.searchService.search(this.query).subscribe(
       (data: any) => {
         this.searchResults = data
+        console.dir(param1);
       },
       error => console.log(error)
     )
@@ -45,7 +53,12 @@ export class SearchComponent implements OnInit, OnDestroy {
     if (this.sub) {
       this.sub.unsubscribe()
     }
+    let actionBarRect = (this._actionBar.nativeElement as HTMLElement).getBoundingClientRect();
+    let closeButtonRect = (<HTMLElement>this._closeButton.nativeElement).getBoundingClientRect();
+
+    console.log(actionBarRect);
   }
+
 }
 
 
