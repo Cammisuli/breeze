@@ -56,7 +56,7 @@
             "name": "String",
             "scope": ["string"],
             "settings": {
-                "foreground": "#ffbb61"
+                "foreground": "#df8c1f"
             }
         },
         {
@@ -209,7 +209,7 @@
                 "meta.decorator entity.name.function"
             ],
             "settings": {
-                "foreground": "#E5BA8F"
+                "foreground": "#ad8c6b"
             }
         },
         {
@@ -278,39 +278,6 @@
         "editor.foreground": "#313131",
         "terminal.background": "#313131",
         "terminal.foreground": "#f1f1f1"
-        // "focusBorder": "#58a8fd",
-        // "editorLineNumber.foreground": "#FFFFFF4d",
-        // "editorLineNumber.activeForeground": "#58a8fd",
-        // "editor.lineHighlightBorder": "#FFFFFF1a",
-        // "editor.rangeHighlightBackground": "#FFFFFF0d",
-        // "editorWidget.background": "#3d3d3d",
-        // "editorHoverWidget.background": "#3d3d3d",
-        // "editorMarkerNavigation.background": "#3d3d3d",
-        // "peekView.border": "#58a8fd",
-        // "peekViewEditor.background": "#282828",
-        // "peekViewResult.background": "#3d3d3d",
-        // "peekViewTitle.background": "#333333",
-        // "panel.background": "#3d3d3d",
-        // "panel.border": "#FFFFFF1a",
-        // "panelTitle.activeBorder": "#ffffff80",
-        // "panelTitle.inactiveForeground": "#ffffff80",
-        // "statusBar.background": "#282828",
-        // "statusBar.debuggingBackground": "#58a8fd",
-        // "statusBar.noFolderBackground": "#282828",
-        // "statusBarItem.activeBackground": "#58a8fd80",
-        // "statusBarItem.hoverBackground": "#FFFFFF1a",
-        // "titleBar.activeBackground": "#282828",
-        // "tab.activeForeground": "#FFF",
-        // "titleBar.activeForeground": "#FFF",
-        // "tab.border": "#4e4e4e",
-        // "tab.inactiveBackground": "#4e4e4e",
-        // "editorGroupHeader.tabsBackground": "#4e4e4e",
-        // "pickerGroup.border": "#FFFFFF1a",
-        // "debugToolBar.background": "#474747",
-        // "selection.background": "#58a8fd",
-        // "scrollbar.shadow": "#313131",
-        // "editorCursor.foreground": "#fff",
-        // "editor.selectionBackground": "#c0bfbf75"
         
     }
 }

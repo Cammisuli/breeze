@@ -22,12 +22,22 @@
             {
                 "label": "Cammisuli Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Cammisuli Theme.json"
+                "path": "./themes/Cammisuli-dark.json"
+            },
+            {
+                "label": "Cammisuli Theme (no italics)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cammisuli-dark-no-italics.json"
+            },
+            {
+                "label": "Cammisuli Theme Light",
+                "uiTheme": "vs",
+                "path": "./themes/Cammisuli-light.json"
             },
             {
                 "label": "Cammisuli Theme Light (no italics)",
                 "uiTheme": "vs",
-                "path": "./themes/Cammisuli-no-italics.json"
+                "path": "./themes/Cammisuli-light-no-italics.json"
             }
         ]
     },
