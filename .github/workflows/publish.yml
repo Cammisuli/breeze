@@ -4,10 +4,13 @@ on:
   push: 
     branches: 
       - master
+    paths: 
+      - 'themes/*'
+      - 'package.json'
 
 jobs:
   build:
-    name: Build vsix
+    name: publish vsix
     runs-on: ubuntu-latest
     
     steps:
@@ -16,9 +19,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: build
+    - name: publish
       run: |
         yarn
-        yarn build
+        yarn vsce publish
       env:
-        CI: true
+        vscepublishtoken: ${{ secrets.vscepublishtoken }}
