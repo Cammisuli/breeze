@@ -22,6 +22,6 @@ jobs:
     - name: publish
       run: |
         yarn
-        yarn vsce publish
+        yarn vsce publish -p ${{ secrets.vscepublishtoken }}
       env:
         vscepublishtoken: ${{ secrets.vscepublishtoken }}
