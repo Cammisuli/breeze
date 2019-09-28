@@ -1,0 +1,24 @@
+name: CI
+
+on: 
+  push: 
+    branches: 
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js latest
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: publish theme extension
+      run: |
+        yarn
+        yarn build
+      env:
+        CI: true
