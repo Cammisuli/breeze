@@ -1,4 +1,4 @@
-name: CI
+name: Publish
 
 on: 
   push: 
@@ -9,7 +9,7 @@ on:
       - 'package.json'
 
 jobs:
-  build:
+  publish:
     name: publish vsix
     runs-on: ubuntu-latest
     
