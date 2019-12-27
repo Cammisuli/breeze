@@ -1,47 +1,47 @@
 {
-    "name": "cammisuli-color-theme",
-    "displayName": "Cammisuli Color Theme",
-    "description": "dark/light color theme",
-    "version": "0.1.5",
-    "repository": {
-        "url": "https://github.com/Cammisuli/vscode-custom-theme"
-    },
-    "publisher": "cammisuli",
-    "engines": {
-        "vscode": "^1.11.0"
-    },
-    "scripts": {
-        "bundle": "vsce package",
-        "build": "yarn bundle"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cammisuli Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Cammisuli-dark.json"
-            },
-            {
-                "label": "Cammisuli Theme (no italics)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Cammisuli-dark-no-italics.json"
-            },
-            {
-                "label": "Cammisuli Theme Light",
-                "uiTheme": "vs",
-                "path": "./themes/Cammisuli-light.json"
-            },
-            {
-                "label": "Cammisuli Theme Light (no italics)",
-                "uiTheme": "vs",
-                "path": "./themes/Cammisuli-light-no-italics.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "vsce": "1.64.0"
-    }
+  "name": "cammisuli-color-theme",
+  "displayName": "Cammisuli Color Theme",
+  "description": "dark/light color theme",
+  "version": "0.1.6",
+  "repository": {
+    "url": "https://github.com/Cammisuli/vscode-custom-theme"
+  },
+  "publisher": "cammisuli",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "scripts": {
+    "bundle": "vsce package",
+    "build": "yarn bundle"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cammisuli Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cammisuli-dark-color-theme.json"
+      },
+      {
+        "label": "Cammisuli Theme (no italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cammisuli-dark-no-italics-color-theme.json"
+      },
+      {
+        "label": "Cammisuli Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/Cammisuli-light-color-theme.json"
+      },
+      {
+        "label": "Cammisuli Theme Light (no italics)",
+        "uiTheme": "vs",
+        "path": "./themes/Cammisuli-light-no-italics-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "1.71.0"
+  }
 }
