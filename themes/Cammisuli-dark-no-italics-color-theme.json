@@ -281,7 +281,7 @@
     "tab.inactiveBackground": "#444444",
     "tab.border": "#444444",
     "editorGroupHeader.tabsBackground": "#444444",
-    "panel.border": "#333333",
-    "focusBorder": "#444444"
+    "focusBorder": "#444444",
+    "panel.border": "#2e2e2e"
   }
 }
