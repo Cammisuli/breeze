@@ -1,8 +1,8 @@
 {
-  "name": "cammisuli-color-theme",
+  "name": "cammisulis-color-theme",
   "displayName": "Cammisuli's Color Theme",
   "description": "dark/light color theme",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "repository": {
     "url": "https://github.com/Cammisuli/vscode-custom-theme"
   },
