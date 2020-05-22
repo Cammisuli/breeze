@@ -34,13 +34,6 @@
       }
     },
     {
-      "name": "support class",
-      "scope": ["support.class"],
-      "settings": {
-        "foreground": "#9289FE"
-      }
-    },
-    {
       "name": "annotation parameters",
       "scope": [
         "meta meta.type.annotation meta.type.parameters",
@@ -84,7 +77,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#727272"
+        "foreground": "#9289FE"
       }
     },
     {
@@ -121,9 +114,13 @@
     },
     {
       "name": "keyword control flow, constant language",
-      "scope": ["keyword.control.conditional", "constant.language"],
+      "scope": [
+        "keyword.control.conditional",
+        "constant.language",
+        "support.class"
+      ],
       "settings": {
-        "foreground": "#9289FE"
+        "foreground": "#247ba0"
       }
     },
     {
@@ -328,6 +325,8 @@
     "titleBar.activeBackground": "#cdd1d6",
     "titleBar.activeForeground": "#7f8994",
     "titleBar.border": "#0000",
-    "tree.indentGuidesStroke": "#0001"
+    // "tree.indentGuidesStroke": "#0001",
+    // "editorLineNumber.foreground": "#e6e6e6",
+    "editorLineNumber.foreground": "#7f8994"
   }
 }
