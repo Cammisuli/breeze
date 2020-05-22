@@ -84,7 +84,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#727272"
+        "foreground": "#457b9d"
       }
     },
     {
@@ -96,7 +96,7 @@
         "meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#333333"
+        "foreground": "#3d405b"
       }
     },
     {
