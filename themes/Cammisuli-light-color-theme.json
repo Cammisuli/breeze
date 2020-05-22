@@ -326,7 +326,10 @@
     "titleBar.activeForeground": "#7f8994",
     "titleBar.border": "#0000",
     // "tree.indentGuidesStroke": "#0001",
-    // "editorLineNumber.foreground": "#e6e6e6",
-    "editorLineNumber.foreground": "#7f8994"
+    "editorLineNumber.foreground": "#e6e6e6",
+    "editorLineNumber.activeForeground": "#7f8994",
+    "editorIndentGuide.background": "#e6e6e6",
+    "editorIndentGuide.activeBackground": "#7f8994",
+    "focusBorder": "#7f8994"
   }
 }
