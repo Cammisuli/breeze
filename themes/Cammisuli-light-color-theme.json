@@ -84,7 +84,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#002366"
+        "foreground": "#727272"
       }
     },
     {
@@ -96,7 +96,7 @@
         "meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#3d405b"
+        "foreground": "#333333"
       }
     },
     {
@@ -109,7 +109,7 @@
         "meta.return.type"
       ],
       "settings": {
-        "foreground": "#4169e1"
+        "foreground": "#58A8FD"
       }
     },
     {
@@ -224,7 +224,7 @@
       "name": "new keyword",
       "scope": ["keyword.operator.new"],
       "settings": {
-        "foreground": "#4169e1"
+        "foreground": "#58A8FD"
       }
     },
     {
@@ -303,7 +303,7 @@
   "colors": {
     "activityBar.background": "#d8dcdf",
     "activityBar.foreground": "#616a75",
-    "activityBarBadge.background": "#4169e1",
+    "activityBarBadge.background": "#58a8fd",
     "editor.background": "#f1f1f1",
     "editor.foreground": "#333333",
     "editorGroupHeader.tabsBackground": "#e6e6e6",
