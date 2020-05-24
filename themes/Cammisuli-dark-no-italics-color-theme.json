@@ -84,7 +84,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#cacaca"
+        "foreground": "#9289FE"
       }
     },
     {
@@ -229,7 +229,11 @@
     },
     {
       "name": "Global, this",
-      "scope": ["variable.language.this", "support.variable.dom"],
+      "scope": [
+        "variable.language.this",
+        "support.variable.dom",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#40A893"
       }
@@ -289,6 +293,10 @@
     "tab.border": "#1c2026",
     "tab.inactiveBackground": "#1c2026",
     "titleBar.border": "#0000",
-    "tree.indentGuidesStroke": "#fff1"
+    "tree.indentGuidesStroke": "#fff1",
+    "editorLineNumber.foreground": "#444444",
+    "editorLineNumber.activeForeground": "#f1f1f1",
+    "editorIndentGuide.background": "#444444",
+    "editorIndentGuide.activeBackground": "#e6e6e6"
   }
 }
