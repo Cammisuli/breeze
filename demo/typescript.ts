@@ -61,7 +61,9 @@ export class SearchComponent implements OnInit, OnDestroy {
 
 }
 
-
+/**
+ * this is a comment
+ */
 const html = String.raw;
 
 const doSomething = () => html`
