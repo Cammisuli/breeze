@@ -3,16 +3,12 @@
   "name": "Cammisuli Theme",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "parameter": {
-      "fontStyle": "italic"
-    },
     "variable.local": {
       "foreground": "#ECE3C0"
     },
     "variable.defaultLibrary": {
       "foreground": "#247BA0",
-      "bold": true,
-      "italic": true
+      "bold": true
     }
   },
   "tokenColors": [
