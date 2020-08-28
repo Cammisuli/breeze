@@ -149,13 +149,25 @@
     },
     {
       "name": "Decorator",
-      "scope": ["meta.decorator", "punctuation.decorator", "meta.attribute"],
+      "scope": [
+        "meta.decorator entity.name.function",
+        "punctuation.decorator",
+        "meta.attribute"
+      ],
       "settings": {
         "foreground": "#E5BA8F"
       }
     },
     {
-      "name": "Global, this, function call",
+      "name": "function calls",
+      "scope": ["entity.name.function meta.function-call"],
+      "settings": {
+        "foreground": "#FF0000",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Global, this",
       "scope": ["variable.language.this", "support.variable.dom"],
       "settings": {
         "foreground": "#40A893"
