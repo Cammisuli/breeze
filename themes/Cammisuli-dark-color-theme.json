@@ -45,6 +45,13 @@
       }
     },
     {
+      "name": "Reset JavaScript string interpolation expression",
+      "scope": ["meta.template.expression"],
+      "settings": {
+        "foreground": "#f1f1f1"
+      }
+    },
+    {
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
