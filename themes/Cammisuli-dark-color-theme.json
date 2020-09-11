@@ -170,10 +170,12 @@
     },
     {
       "name": "function calls",
-      "scope": ["entity.name.function meta.function-call"],
+      "scope": [
+        "entity.name.function meta.function-call",
+        "entity.name.function.tagged-template"
+      ],
       "settings": {
-        "foreground": "#FF0000",
-        "fontStyle": "bold"
+        "foreground": "#f1f1f1"
       }
     },
     {

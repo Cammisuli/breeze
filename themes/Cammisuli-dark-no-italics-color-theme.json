@@ -7,15 +7,18 @@
       "foreground": "#ECE3C0"
     },
     "variable.defaultLibrary": {
-      "foreground": "#247BA0"
+      "foreground": "#247BA0",
+      "italic": true
     },
     "*.readonly": "#ECE3C0",
     "member": "#f1f1f1",
     "enumMember": {
-      "foreground": "#9289FE"
+      "foreground": "#9289FE",
+      "italic": true
     },
     "*.static": {
-      "foreground": "#9289FE"
+      "foreground": "#9289FE",
+      "italic": true
     },
     "number": "#FF7BA6"
   },
@@ -167,10 +170,12 @@
     },
     {
       "name": "function calls",
-      "scope": ["entity.name.function meta.function-call"],
+      "scope": [
+        "entity.name.function meta.function-call",
+        "entity.name.function.tagged-template"
+      ],
       "settings": {
-        "foreground": "#FF0000",
-        "fontStyle": "bold"
+        "foreground": "#f1f1f1"
       }
     },
     {

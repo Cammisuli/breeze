@@ -57,6 +57,7 @@ export class SearchComponent implements OnInit, OnDestroy {
     let closeButtonRect = (<HTMLElement>this._closeButton.nativeElement).getBoundingClientRect();
 
     console.log(actionBarRect);
+    
   }
 
 }
@@ -66,10 +67,15 @@ export class SearchComponent implements OnInit, OnDestroy {
  */
 const html = String.raw;
 
-const doSomething = () => html`
+const doSomething = () => stripIndent`
   <div on-click="${(e) => console.log(e)}"></div>
 `
 
+
+function  stripIndent(strings: TemplateStringsArray, ...values: any[]): string {
+  return strings.join()
+
+}
 interface Test {
   param: string;
 }
