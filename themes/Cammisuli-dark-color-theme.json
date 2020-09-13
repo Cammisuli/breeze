@@ -232,7 +232,6 @@
         "storage.type",
         "keyword.operator.new",
         "keyword.control.conditional",
-        "meta.type.annotation",
         "meta.return.type"
       ],
       "settings": {
