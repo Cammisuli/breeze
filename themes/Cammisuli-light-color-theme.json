@@ -30,7 +30,7 @@
       "name": "annotations",
       "scope": ["meta meta.type.annotation"],
       "settings": {
-        "foreground": "#caa200"
+        "foreground": "#40A893"
       }
     },
     {
@@ -54,7 +54,7 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#caa200"
+        "foreground": "#40A893"
       }
     },
     {
@@ -68,18 +68,18 @@
         "foreground": "#333333"
       }
     },
-    {
-      "name": "Function, Special Method, Block Level",
-      "scope": [
-        "meta.function-call",
-        "support.function",
-        "keyword.other.special-method",
-        "meta.block-level"
-      ],
-      "settings": {
-        "foreground": "#9289FE"
-      }
-    },
+    // {
+    //   "name": "Function, Special Method, Block Level",
+    //   "scope": [
+    //     "meta.function-call",
+    //     "support.function",
+    //     "keyword.other.special-method",
+    //     "meta.block-level"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#9289FE"
+    //   }
+    // },
     {
       "name": "Object properties",
       "scope": [
@@ -242,38 +242,34 @@
       "name": "HTML Attribute",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#52A0FD"
+        "foreground": "#333"
       }
     },
     {
       "name": "CSS variable",
       "scope": "source.css variable",
       "settings": {
-        "foreground": "#9289FE"
+        "foreground": "#40A893"
       }
     },
-    {
-      "name": "CSS property value",
-      "scope": [
-        "source.css.scss meta.property-value.scss",
-        "source.css meta.property-value.css",
-        "source.css keyword.other.unit"
-      ],
-      "settings": {
-        "foreground": "#caa200"
-      }
-    },
+    // {
+    //   "name": "CSS property value",
+    //   "scope": [
+    //     "source.css.scss meta.property-value.scss",
+    //     "source.css meta.property-value.css",
+    //     "source.css keyword.other.unit"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#caa200"
+    //   }
+    // },
     {
       "name": "italics",
       "scope": [
         "comment",
         "entity.other.inherited-class",
-        "keyword",
-        "support.function",
-        "punctuation.accessor",
         "entity.other.attribute-name",
         "meta.class meta.method.declaration meta.var.expr storage.type.js",
-        "keyword.operator.relational",
         "meta.delimiter.period",
         "meta.selector",
         "entity.name.tag.doctype",
@@ -286,10 +282,9 @@
         "variable.language.this",
         "source.css.scss meta.property-value.scss",
         "source.css meta.property-value.css",
-        "storage",
+        "storage.type",
         "keyword.operator.new",
-        "constant.language",
-        "meta.type.annotation",
+        "keyword.control.conditional",
         "meta.return.type"
       ],
       "settings": {
@@ -330,6 +325,8 @@
     "editorLineNumber.activeForeground": "#7f8994",
     "editorIndentGuide.background": "#e6e6e6",
     "editorIndentGuide.activeBackground": "#7f8994",
-    "focusBorder": "#7f8994"
+    "focusBorder": "#7f8994",
+    "statusBar.debuggingBackground": "#ff8400",
+    "statusBar.debuggingForeground": "#333"
   }
 }
