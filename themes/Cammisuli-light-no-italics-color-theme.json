@@ -1,7 +1,39 @@
 {
   "comment": "",
   "name": "Cammisuli Theme",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "interface": "#40A893",
+    "property.declaration": "#3985FF",
+    "variable.local": {
+      "foreground": "#ff9f05"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#247BA0",
+      "italic": true
+    },
+    "parameter": {
+      "italic": true,
+      "foreground": "#696969"
+    },
+    // "*.readonly": "#ECE3C0",
+    "enumMember": {
+      "foreground": "#9289FE",
+      "italic": true
+    },
+    "*.static": {
+      "foreground": "#9289FE",
+      "italic": true
+    },
+    "number": "#FF7BA6"
+  },
   "tokenColors": [
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#FF7BA6"
+      }
+    },
     {
       "name": "Comment",
       "scope": "comment",
@@ -30,7 +62,7 @@
       "name": "annotations",
       "scope": ["meta meta.type.annotation"],
       "settings": {
-        "foreground": "#caa200"
+        "foreground": "#40A893"
       }
     },
     {
@@ -54,7 +86,7 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#caa200"
+        "foreground": "#40A893"
       }
     },
     {
@@ -68,18 +100,18 @@
         "foreground": "#333333"
       }
     },
-    {
-      "name": "Function, Special Method, Block Level",
-      "scope": [
-        "meta.function-call",
-        "support.function",
-        "keyword.other.special-method",
-        "meta.block-level"
-      ],
-      "settings": {
-        "foreground": "#9289FE"
-      }
-    },
+    // {
+    //   "name": "Function, Special Method, Block Level",
+    //   "scope": [
+    //     "meta.function-call",
+    //     "support.function",
+    //     "keyword.other.special-method",
+    //     "meta.block-level"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#9289FE"
+    //   }
+    // },
     {
       "name": "Object properties",
       "scope": [
@@ -178,14 +210,7 @@
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#FFC58F"
-      }
-    },
-    {
-      "name": "Markup Lists",
-      "scope": "markup.list",
-      "settings": {
-        "foreground": "#BBDAFF"
+        "foreground": "#ffaf8f"
       }
     },
     {
@@ -242,25 +267,53 @@
       "name": "HTML Attribute",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#52A0FD"
+        "foreground": "#333"
       }
     },
     {
       "name": "CSS variable",
       "scope": "source.css variable",
       "settings": {
-        "foreground": "#9289FE"
+        "foreground": "#40A893"
       }
     },
+    // {
+    //   "name": "CSS property value",
+    //   "scope": [
+    //     "source.css.scss meta.property-value.scss",
+    //     "source.css meta.property-value.css",
+    //     "source.css keyword.other.unit"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#caa200"
+    //   }
+    // },
     {
-      "name": "CSS property value",
+      "name": "italics",
       "scope": [
+        "comment",
+        "entity.other.inherited-class",
+        "entity.other.attribute-name",
+        "meta.class meta.method.declaration meta.var.expr storage.type.js",
+        "meta.delimiter.period",
+        "meta.selector",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "italic",
+        "quote",
+        "source.elixir .punctuation.binary.elixir",
+        "meta.tag.sgml.doctype.html",
+        "markup.italic.markdown",
+        "variable.language.this",
         "source.css.scss meta.property-value.scss",
         "source.css meta.property-value.css",
-        "source.css keyword.other.unit"
+        "storage.type",
+        "keyword.operator.new",
+        "keyword.control.conditional",
+        "meta.return.type"
       ],
       "settings": {
-        "foreground": "#caa200"
+        "fontStyle": "italic"
       }
     }
   ],
@@ -297,6 +350,8 @@
     "editorLineNumber.activeForeground": "#7f8994",
     "editorIndentGuide.background": "#e6e6e6",
     "editorIndentGuide.activeBackground": "#7f8994",
-    "focusBorder": "#7f8994"
+    "focusBorder": "#7f8994",
+    "statusBar.debuggingBackground": "#ff8400",
+    "statusBar.debuggingForeground": "#333"
   }
 }

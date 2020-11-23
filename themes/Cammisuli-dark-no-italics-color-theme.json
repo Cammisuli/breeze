@@ -3,6 +3,8 @@
   "name": "Cammisuli Theme",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "property.declaration": "#E2EDFF",
+    "interface": "#40A893",
     "variable.local": {
       "foreground": "#ECE3C0"
     },
@@ -148,13 +150,6 @@
       "settings": {
         "fontStyle": "",
         "foreground": "#FF9DA4"
-      }
-    },
-    {
-      "name": "Class, Interface name",
-      "scope": ["meta.class", "interface"],
-      "settings": {
-        "foreground": "#E2EDFF"
       }
     },
     {

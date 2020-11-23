@@ -1,7 +1,39 @@
 {
   "comment": "",
   "name": "Cammisuli Theme",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "interface": "#40A893",
+    "property.declaration": "#3985FF",
+    "variable.local": {
+      "foreground": "#ff9f05"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#247BA0",
+      "italic": true
+    },
+    "parameter": {
+      "italic": true,
+      "foreground": "#696969"
+    },
+    // "*.readonly": "#ECE3C0",
+    "enumMember": {
+      "foreground": "#9289FE",
+      "italic": true
+    },
+    "*.static": {
+      "foreground": "#9289FE",
+      "italic": true
+    },
+    "number": "#FF7BA6"
+  },
   "tokenColors": [
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#FF7BA6"
+      }
+    },
     {
       "name": "Comment",
       "scope": "comment",
@@ -178,14 +210,7 @@
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#FFC58F"
-      }
-    },
-    {
-      "name": "Markup Lists",
-      "scope": "markup.list",
-      "settings": {
-        "foreground": "#BBDAFF"
+        "foreground": "#ffaf8f"
       }
     },
     {
