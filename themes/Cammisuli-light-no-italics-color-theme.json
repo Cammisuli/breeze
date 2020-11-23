@@ -6,7 +6,7 @@
     "interface": "#40A893",
     "property.declaration": "#3985FF",
     "variable.local": {
-      "foreground": "#ff9f05"
+      "foreground": "#6090cf"
     },
     "variable.defaultLibrary": {
       "foreground": "#247BA0",
@@ -79,7 +79,7 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#df8c1f"
+        "foreground": "#68788d"
       }
     },
     {
@@ -100,18 +100,18 @@
         "foreground": "#333333"
       }
     },
-    // {
-    //   "name": "Function, Special Method, Block Level",
-    //   "scope": [
-    //     "meta.function-call",
-    //     "support.function",
-    //     "keyword.other.special-method",
-    //     "meta.block-level"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#9289FE"
-    //   }
-    // },
+    {
+      "name": "Function, Special Method, Block Level",
+      "scope": [
+        "meta.function-call",
+        "support.function",
+        "keyword.other.special-method",
+        "meta.block-level"
+      ],
+      "settings": {
+        "foreground": "#9289FE"
+      }
+    },
     {
       "name": "Object properties",
       "scope": [
@@ -276,7 +276,7 @@
       "settings": {
         "foreground": "#40A893"
       }
-    },
+    }
     // {
     //   "name": "CSS property value",
     //   "scope": [
@@ -285,37 +285,9 @@
     //     "source.css keyword.other.unit"
     //   ],
     //   "settings": {
-    //     "foreground": "#caa200"
+    //     "foreground": "#`caa200"
     //   }
     // },
-    {
-      "name": "italics",
-      "scope": [
-        "comment",
-        "entity.other.inherited-class",
-        "entity.other.attribute-name",
-        "meta.class meta.method.declaration meta.var.expr storage.type.js",
-        "meta.delimiter.period",
-        "meta.selector",
-        "entity.name.tag.doctype",
-        "meta.tag.sgml.doctype",
-        "italic",
-        "quote",
-        "source.elixir .punctuation.binary.elixir",
-        "meta.tag.sgml.doctype.html",
-        "markup.italic.markdown",
-        "variable.language.this",
-        "source.css.scss meta.property-value.scss",
-        "source.css meta.property-value.css",
-        "storage.type",
-        "keyword.operator.new",
-        "keyword.control.conditional",
-        "meta.return.type"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    }
   ],
   "colors": {
     "activityBar.background": "#d8dcdf",
