@@ -25,6 +25,12 @@
       "foreground": "#9289FE",
       "italic": true
     },
+    "method.declaration": {
+      "foreground": "#333333"
+    },
+    "function.declaration": {
+      "foreground": "#333333"
+    },
     "number": "#FF7BA6"
   },
   "tokenColors": [
@@ -109,7 +115,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#9289FE"
+        "foreground": "#0dc49f"
       }
     },
     {
@@ -253,7 +259,7 @@
       "name": "Global, this",
       "scope": ["variable.language.this", "support.variable.dom"],
       "settings": {
-        "foreground": "#0dc49f"
+        "foreground": "#0da9c4"
       }
     },
     {
@@ -277,17 +283,6 @@
         "foreground": "#40A893"
       }
     }
-    // {
-    //   "name": "CSS property value",
-    //   "scope": [
-    //     "source.css.scss meta.property-value.scss",
-    //     "source.css meta.property-value.css",
-    //     "source.css keyword.other.unit"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#caa200"
-    //   }
-    // },
   ],
   "colors": {
     "activityBar.background": "#d8dcdf",
