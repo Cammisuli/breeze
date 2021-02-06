@@ -5,7 +5,7 @@
   "semanticTokenColors": {
     "interface": "#40A893",
     "property.declaration": "#3985FF",
-    "variable.local": {
+    "*.local": {
       "foreground": "#6090cf"
     },
     "variable.defaultLibrary": {
@@ -30,6 +30,12 @@
     },
     "function.declaration": {
       "foreground": "#333333"
+    },
+    "function.local": {
+      "foreground": "#6090cf"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#247BA0"
     },
     "number": "#FF7BA6"
   },

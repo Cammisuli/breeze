@@ -3,17 +3,19 @@
   "name": "Cammisuli Theme",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "property.declaration": "#E2EDFF",
     "interface": "#40A893",
-    "variable.local": {
-      "foreground": "#ECE3C0"
+    "property.declaration": "#3985FF",
+    "*.local": {
+      "foreground": "#6090cf"
     },
     "variable.defaultLibrary": {
       "foreground": "#247BA0",
       "italic": true
     },
-    "*.readonly": "#ECE3C0",
-    "member": "#f1f1f1",
+    "parameter": {
+      "italic": true
+    },
+    // "*.readonly": "#ECE3C0",
     "enumMember": {
       "foreground": "#9289FE",
       "italic": true
@@ -21,6 +23,18 @@
     "*.static": {
       "foreground": "#9289FE",
       "italic": true
+    },
+    "method.declaration": {
+      "foreground": "#F1f1f1"
+    },
+    "function.declaration": {
+      "foreground": "#F1f1f1"
+    },
+    "function.local": {
+      "foreground": "#6090cf"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#247BA0"
     },
     "number": "#FF7BA6"
   },
