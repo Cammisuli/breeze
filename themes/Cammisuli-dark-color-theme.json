@@ -280,8 +280,6 @@
     "editor.lineHighlightBorder": "#1C2026",
     "editorWidget.background": "#1C2026",
     "editorWidget.border": "#3d4853",
-    "input.background": "#fff1",
-    "dropdown.background": "#fff1",
     "button.background": "#1287DB"
   }
 }

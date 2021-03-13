@@ -12,7 +12,8 @@
   },
   "scripts": {
     "bundle": "vsce package",
-    "build": "yarn bundle"
+    "build": "yarn bundle",
+    "release": "standard-version"
   },
   "categories": [
     "Themes"
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "standard-version": "^9.1.1",
     "vsce": "1.71.0"
   }
 }
