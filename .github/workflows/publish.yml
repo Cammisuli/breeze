@@ -18,9 +18,12 @@ jobs:
           yarn
           yarn bundle
           yarn publish-bundle -p ${{ secrets.vscepublishtoken }}
+      - name: generate changes
+        run: git show  CHANGELOG.md | egrep "^\+" | tail +5 | sed -e 's/^\+//' > changelog.txt
       - name: release
         uses: softprops/action-gh-release@v1
         with:
+          body: changelog.txt
           files: |
             custom-theme.vsix
         env:
