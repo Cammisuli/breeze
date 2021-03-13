@@ -16,7 +16,6 @@
       "italic": true,
       "foreground": "#696969"
     },
-    // "*.readonly": "#ECE3C0",
     "enumMember": {
       "foreground": "#9289FE",
       "italic": true
@@ -319,7 +318,6 @@
     "titleBar.activeBackground": "#cdd1d6",
     "titleBar.activeForeground": "#7f8994",
     "titleBar.border": "#0000",
-    // "tree.indentGuidesStroke": "#0001",
     "editorLineNumber.foreground": "#e6e6e6",
     "editorLineNumber.activeForeground": "#7f8994",
     "editorIndentGuide.background": "#e6e6e6",
