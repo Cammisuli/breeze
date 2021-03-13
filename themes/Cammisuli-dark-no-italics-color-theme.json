@@ -15,7 +15,6 @@
     "parameter": {
       "italic": true
     },
-    // "*.readonly": "#ECE3C0",
     "enumMember": {
       "foreground": "#9289FE",
       "italic": true
