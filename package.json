@@ -11,7 +11,8 @@
     "vscode": "^1.41.0"
   },
   "scripts": {
-    "bundle": "vsce package",
+    "bundle": "vsce package --out custom-theme.vsix",
+    "publish-bundle": "vsce publish --packagePath custom-theme.vsix",
     "build": "yarn bundle",
     "release": "standard-version"
   },
@@ -44,6 +45,6 @@
   },
   "devDependencies": {
     "standard-version": "^9.1.1",
-    "vsce": "1.71.0"
+    "vsce": "^1.87.0"
   }
 }

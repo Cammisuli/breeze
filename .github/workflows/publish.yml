@@ -1,27 +1,28 @@
 name: Publish
 
-on: 
-  push: 
-    branches: 
-      - master
-    paths: 
-      - 'themes/*'
-      - 'package.json'
-
+on:
+  push:
+    tags:
+      - "v*.*.*"
 jobs:
   publish:
     name: publish vsix
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v1
-    - name: Use latest Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12.x
-    - name: publish
-      run: |
-        yarn
-        yarn vsce publish -p ${{ secrets.vscepublishtoken }}
-      env:
-        vscepublishtoken: ${{ secrets.vscepublishtoken }}
+      - uses: actions/checkout@v1
+      - name: Use latest Node.js
+        uses: actions/setup-node@v1
+      - name: publish
+        run: |
+          yarn
+          yarn bundle
+          yarn publish-bundle
+      - name: release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            custom-theme.vsix
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VSCE_PAT: ${{ secrets.vscepublishtoken }}
