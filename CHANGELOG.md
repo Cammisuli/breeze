@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.10](https://github.com/Cammisuli/vscode-custom-theme/compare/v0.3.9...v0.3.10) (2021-03-13)
+
+
+### Bug Fixes
+
+* **light-theme:** remove more comments ([e1a1ac0](https://github.com/Cammisuli/vscode-custom-theme/commit/e1a1ac09a4ff6bc0aaf5c46d2d613f3a5c7355a4))
+
 ### [0.3.9](https://github.com/Cammisuli/vscode-custom-theme/compare/v0.3.8...v0.3.9) (2021-03-13)
 
 
