@@ -16,7 +16,6 @@
       "italic": true,
       "foreground": "#696969"
     },
-    // "*.readonly": "#ECE3C0",
     "enumMember": {
       "foreground": "#9289FE",
       "italic": true
