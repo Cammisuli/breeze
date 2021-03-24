@@ -46,6 +46,23 @@
       }
     },
     {
+      "name": "Variable, String Link, Regular Expression, Tag Name",
+      "scope": [
+        "support.other.variable",
+        "string.other.link",
+        "string.regexp",
+        "entity.name.tag",
+        "entity.other.attribute-name",
+        "meta.tag",
+        "declaration.tag",
+        "punctuation.definition.template-expression",
+        "meta.template.expression"
+      ],
+      "settings": {
+        "foreground": "#dfdfdf"
+      }
+    },
+    {
       "name": "numbers",
       "scope": ["constant.numeric"],
       "settings": {
@@ -167,23 +184,34 @@
     },
     {
       "name": "Decorator",
-      "scope": [
-        "meta.decorator entity.name.function",
-        "punctuation.decorator",
-        "meta.attribute"
-      ],
+      "scope": ["meta.decorator entity.name.function"],
       "settings": {
         "foreground": "#E5BA8F"
       }
     },
     {
-      "name": "function calls",
+      "name": "Function, Special Method, Block Level",
       "scope": [
-        "entity.name.function meta.function-call",
-        "entity.name.function.tagged-template"
+        "meta.function-call",
+        "support.function",
+        "keyword.other.special-method",
+        "meta.block-level"
       ],
       "settings": {
-        "foreground": "#f1f1f1"
+        "foreground": "#0dc49f"
+      }
+    },
+    {
+      "name": "Object properties",
+      "scope": [
+        "variable.other.object.property",
+        "variable.object.property",
+        "variable",
+        "meta.type.parameters entity.name.type",
+        "punctuation.accessor"
+      ],
+      "settings": {
+        "foreground": "#F1F1F1"
       }
     },
     {
