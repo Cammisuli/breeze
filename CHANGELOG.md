@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/Cammisuli/vscode-custom-theme/compare/v0.3.12...v0.4.0) (2021-05-06)
+
+
+### Features
+
+* clean up side bar colors ([5e7cacf](https://github.com/Cammisuli/vscode-custom-theme/commit/5e7cacf47ac67f507dc3162e5a634c3ff14a48ea))
+
 ### [0.3.12](https://github.com/Cammisuli/vscode-custom-theme/compare/v0.3.11...v0.3.12) (2021-03-24)
 
 
