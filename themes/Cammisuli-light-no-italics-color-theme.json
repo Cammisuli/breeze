@@ -287,6 +287,39 @@
       "settings": {
         "foreground": "#40A893"
       }
+    },
+    {
+      "name": "ngTemplate",
+      "scope": "entity.other.ng-binding-name.template.html",
+      "settings": {
+        "foreground": "#e2ad5e"
+      }
+    },
+    {
+      "name": "ngBinding",
+      "scope": "entity.other.ng-binding-name.property.html",
+      "settings": {
+        "foreground": "#e2675e"
+      }
+    },
+    {
+      "name": "ngOutput",
+      "scope": "entity.other.ng-binding-name.event.html",
+      "settings": {
+        "foreground": "#7ecc25"
+      }
+    },
+    {
+      "name": "customelement",
+      "scope": [
+        "meta.tag.custom.start.html",
+        "meta.tag.custom.end.html",
+        "meta.tag.custom.start.html entity.name.tag.html",
+        "meta.tag.custom.end.html entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#064bbb"
+      }
     }
   ],
   "colors": {

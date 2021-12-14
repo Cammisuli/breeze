@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "standard-version": "^9.1.1",
-    "vsce": "^1.87.0"
+    "vsce": "2.5.1"
   }
 }
