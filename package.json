@@ -1,12 +1,22 @@
 {
-  "name": "cammisuli-color-theme",
-  "displayName": "Cammisuli's Color Theme",
-  "description": "dark/light color theme",
+  "name": "breeze-theme",
+  "displayName": "Breeze Theme",
+  "description": "A cool blue dark/light color theme",
   "version": "0.5.1",
   "repository": {
-    "url": "https://github.com/Cammisuli/vscode-custom-theme"
+    "url": "https://github.com/Cammisuli/breeze"
   },
+  "author": {
+    "name": "Jonathan Cammisuli"
+  },
+  "keywords": [
+    "blue theme",
+    "dark theme",
+    "light theme",
+    "breeze"
+  ],
   "publisher": "cammisuli",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.41.0"
   },
@@ -19,27 +29,28 @@
   "categories": [
     "Themes"
   ],
+  "icon": "assets/breeze-icon.png",
   "contributes": {
     "themes": [
       {
-        "label": "Cammisuli Theme",
+        "label": "Cool Breeze",
         "uiTheme": "vs-dark",
-        "path": "./themes/Cammisuli-dark-color-theme.json"
+        "path": "./themes/cool-breeze.json"
       },
       {
-        "label": "Cammisuli Theme (no italics)",
+        "label": "Cool Breeze (no italics)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Cammisuli-dark-no-italics-color-theme.json"
+        "path": "./themes/cool-breeze-no-italics.json"
       },
       {
-        "label": "Cammisuli Theme Light",
+        "label": "Warm Breeze",
         "uiTheme": "vs",
-        "path": "./themes/Cammisuli-light-color-theme.json"
+        "path": "./themes/warm-breeze.json"
       },
       {
-        "label": "Cammisuli Theme Light (no italics)",
+        "label": "Warm Breeze (no italics)",
         "uiTheme": "vs",
-        "path": "./themes/Cammisuli-light-no-italics-color-theme.json"
+        "path": "./themes/warm-breeze-no-italics.json"
       }
     ]
   },

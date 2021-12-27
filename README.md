@@ -1,8 +1,16 @@
-# README
-This is my theme that I personally use for Visual Studio code.
+<p align="center">
+![logo](https://github.com/cammisuli/breeze/raw/master/assets/breeze-logo.png)
+<img src="/assets/breeze-logo.png">
+</p>
 
-Install from https://marketplace.visualstudio.com/items?itemName=cammisuli.cammisuli-color-theme
+A theme that has cool blues that feel like a good breeze.
 
-Check the demo files to see how each extension looks like. 
+Comes with a light theme (warm breeze) and a dark theme (cool breeze)
 
-**Enjoy!**
+### Cool breeze
+
+![cool breeze](https://github.com/cammisuli/breeze/raw/master/assets/cool-breeze.png)
+
+### Warm breeze
+
+![warm breeze](https://github.com/cammisuli/breeze/raw/master/assets/warm-breeze.png)
