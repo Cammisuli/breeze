@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/Cammisuli/breeze/compare/v1.0.0...v1.0.1) (2022-01-14)
+
+
+### Bug Fixes
+
+* change highlights in the light theme. Update some more things in the dark theme ([6b8f233](https://github.com/Cammisuli/breeze/commit/6b8f2334302441dd40713b56265b2ef0170f27f1))
+
 ## [1.0.0](https://github.com/Cammisuli/breeze/compare/v0.5.1...v1.0.0) (2021-12-28)
 
 ### [0.5.1](https://github.com/Cammisuli/vscode-custom-theme/compare/v0.4.0...v0.5.1) (2021-12-14)
