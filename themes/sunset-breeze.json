@@ -352,7 +352,7 @@
   ],
   "colors": {
     "activityBar.background": "#E6E0C3",
-    "activityBar.border": "#ebdebd",
+    "activityBar.border": "#FDF6E3",
     "activityBar.foreground": "#292929",
     "activityBarBadge.background": "#5a4d04",
     "badge.background": "#FDF6E3",
@@ -399,7 +399,6 @@
     "quickInputList.focusBackground": "#ebdebd",
     "scrollbar.shadow": "#74726e",
     "sideBar.background": "#E6E0C3",
-    "sideBar.border": "#0000",
     "sideBar.foreground": "#333333",
     "sideBarSectionHeader.background": "#c7c2a8",
     "sideBarSectionHeader.border": "#ebdebd",
@@ -416,6 +415,7 @@
     "titleBar.activeBackground": "#ebdebd",
     "titleBar.activeForeground": "#7f8994",
     "titleBar.border": "#ebdebd",
+    "toolbar.hoverBackground": "#F5E7B8",
     "tree.indentGuidesStroke": "#CCC7B8"
   }
 }
