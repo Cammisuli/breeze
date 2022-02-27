@@ -10,6 +10,7 @@
     "blue theme",
     "dark theme",
     "light theme",
+    "solarized theme",
     "breeze"
   ],
   "publisher": "cammisuli",
@@ -48,6 +49,16 @@
         "label": "Warm Breeze (no italics)",
         "uiTheme": "vs",
         "path": "./themes/warm-breeze-no-italics.json"
+      },
+      {
+        "label": "Sunset Breeze",
+        "uiTheme": "vs",
+        "path": "./themes/sunset-breeze.json"
+      },
+      {
+        "label": "Sunset Breeze (no italics)",
+        "uiTheme": "vs",
+        "path": "./themes/sunset-breeze-no-italics.json"
       }
     ]
   },

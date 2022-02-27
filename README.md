@@ -13,3 +13,7 @@ Comes with a light theme (warm breeze) and a dark theme (cool breeze)
 ### Warm breeze
 
 <img src="https://github.com/cammisuli/breeze/raw/master/assets/warm-breeze.png" />
+
+### Sunset breeze
+
+<img src="https://github.com/cammisuli/breeze/raw/master/assets/sunset-breeze.png" />
