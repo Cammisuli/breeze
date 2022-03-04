@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/Cammisuli/breeze/compare/v1.1.1...v1.1.2) (2022-03-04)
+
+
+### Bug Fixes
+
+* **sunset:** change colors for side bar and shadow ([70c8404](https://github.com/Cammisuli/breeze/commit/70c8404bd5ab9b9b313f57ded69576c3c24e2f9c))
+
 ### [1.1.1](https://github.com/Cammisuli/breeze/compare/v1.1.0...v1.1.1) (2022-02-27)
 
 
