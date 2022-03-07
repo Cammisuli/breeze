@@ -412,9 +412,9 @@
     "tab.border": "#c7c2a8",
     "tab.inactiveBackground": "#c7c2a8",
     "tab.inactiveForeground": "#979795",
-    "titleBar.activeBackground": "#ebdebd",
-    "titleBar.activeForeground": "#7f8994",
-    "titleBar.border": "#ebdebd",
+    "titleBar.activeBackground": "#e6e0c3",
+    "titleBar.activeForeground": "#333333",
+    "titleBar.border": "#e6e0c3",
     "toolbar.hoverBackground": "#F5E7B8",
     "tree.indentGuidesStroke": "#CCC7B8"
   }
