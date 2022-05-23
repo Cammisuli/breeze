@@ -241,9 +241,10 @@
     },
     {
       "name": "Decorator",
-      "scope": ["meta.decorator entity.name.function"],
+      "scope": ["meta.decorator entity.name.function,  punctuation.decorator"],
       "settings": {
-        "foreground": "#ad8c6b"
+        "foreground": "#ad8c6b",
+        "fontStyle": "italic"
       }
     },
     {
@@ -400,7 +401,7 @@
     "scrollbar.shadow": "#0000000a",
     "sideBar.background": "#E6E0C3",
     "sideBar.foreground": "#333333",
-    "sideBarSectionHeader.background": "#c7c2a8",
+    "sideBarSectionHeader.background": "#E6E0C3",
     "sideBarSectionHeader.border": "#ebdebd",
     "sideBarSectionHeader.foreground": "#333333",
     "statusBar.background": "#E6E0C3",
@@ -412,9 +413,9 @@
     "tab.border": "#c7c2a8",
     "tab.inactiveBackground": "#c7c2a8",
     "tab.inactiveForeground": "#979795",
-    "titleBar.activeBackground": "#e6e0c3",
-    "titleBar.activeForeground": "#333333",
-    "titleBar.border": "#e6e0c3",
+    "titleBar.activeBackground": "#ebdebd",
+    "titleBar.activeForeground": "#7f8994",
+    "titleBar.border": "#ccbe9c",
     "toolbar.hoverBackground": "#F5E7B8",
     "tree.indentGuidesStroke": "#CCC7B8"
   }
