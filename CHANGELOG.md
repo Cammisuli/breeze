@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Cammisuli/breeze/compare/v1.1.3...v1.2.0) (2022-05-23)
+
+
+### Bug Fixes
+
+* change color for css property values in sunset and warm ([#17](https://github.com/Cammisuli/breeze/issues/17)) ([e839b89](https://github.com/Cammisuli/breeze/commit/e839b894fc446655301a6a8802d2a1402e57deaf))
+
 ### [1.1.3](https://github.com/Cammisuli/breeze/compare/v1.1.2...v1.1.3) (2022-03-07)
 
 
