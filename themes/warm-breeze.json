@@ -241,9 +241,10 @@
     },
     {
       "name": "Decorator",
-      "scope": ["meta.decorator entity.name.function"],
+      "scope": ["meta.decorator entity.name.function, punctuation.decorator"],
       "settings": {
-        "foreground": "#ad8c6b"
+        "foreground": "#ad8c6b",
+        "fontStyle": "italic"
       }
     },
     {
@@ -361,12 +362,12 @@
     "editor.foreground": "#333333",
     "editor.selectionBackground": "#5f59591e",
     "editor.wordHighlightBackground": "#58a8fd2c",
-    "editorGroupHeader.tabsBackground": "#e6e6e6",
+    "editorGroupHeader.tabsBackground": "#e3e6e8",
     "editorGroupHeader.tabsBorder": "#eef0f1",
     "editorIndentGuide.activeBackground": "#7f8994",
     "editorIndentGuide.background": "#e6e6e6",
-    "editorLineNumber.activeForeground": "#7f8994",
-    "editorLineNumber.foreground": "#e6e6e6",
+    "editorLineNumber.activeForeground": "#6b6b6b",
+    "editorLineNumber.foreground": "#babaac",
     "focusBorder": "#7f8994",
     "gitDecoration.ignoredResourceForeground": "#888888",
     "list.activeSelectionBackground": "#cdd1d6",
@@ -389,7 +390,7 @@
     "statusBar.debuggingForeground": "#333",
     "statusBar.foreground": "#616a75",
     "tab.border": "#e6e6e6",
-    "tab.inactiveBackground": "#e6e6e6",
+    "tab.inactiveBackground": "#e3e6e8",
     "tab.inactiveForeground": "#c5c9ce",
     "titleBar.activeBackground": "#e3e6e8",
     "titleBar.activeForeground": "#7f8994",
