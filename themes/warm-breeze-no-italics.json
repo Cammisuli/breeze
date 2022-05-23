@@ -285,6 +285,17 @@
       }
     },
     {
+      "name": "CSS property value",
+      "scope": [
+        "source.css.scss meta.property-value.scss",
+        "source.css meta.property-value.css",
+        "source.css keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#58A8FD"
+      }
+    },
+    {
       "name": "ngTemplate",
       "scope": "entity.other.ng-binding-name.template.html",
       "settings": {
