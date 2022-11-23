@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Cammisuli/breeze/compare/v1.2.0...v1.3.0) (2022-11-23)
+
+
+### Features
+
+* update colors to be less dim ([d639742](https://github.com/Cammisuli/breeze/commit/d639742e28c2ef77a955dc50593debb2504dc0a5))
+
 ## [1.2.0](https://github.com/Cammisuli/breeze/compare/v1.1.3...v1.2.0) (2022-05-23)
 
 
